@@ -1,0 +1,41 @@
+body, html{
+width: 100%;
+height: 100%;
+background: url(KuromiBackground.jpg) no-repeat center center fixed;
+background-size: cover;
+font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  color: rgb(249, 190, 210);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.d-flex{
+  justify-content: space-around;
+}
+.buffer{
+  height:10rem;
+}
+hr{
+  margin: 20px auto;
+  border-color: rgb(170, 84, 111);
+  border-width: 3px;
+  max-width: 65px;
+  opacity: 1;
+}
+
+
+.btn-xl{
+  padding: 1rem 2rem;
+  background-color: rgb(170, 84, 111);
+  border: 3px solid rgb(127, 46, 72);
+  border-radius: 300px; 
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-xl:hover{
+  background-color: rgb(225, 96, 137);
+  border-color: rgb(185, 57, 98);
+  border-width: 5px;
+}
